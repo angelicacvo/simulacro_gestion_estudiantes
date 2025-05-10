@@ -44,4 +44,4 @@ Funciones:
 - menu(): contiene las opciones del menú con el cual va a interactuar el usuario
 - Por medio de un match, case, se asigna a cada opción una función para que sea funcional, si el usuario ingresa una opción no válida se enviará un mensaje de: Opción no válida
 
-
+Link repositorio: https://github.com/angelicacvo/simulacro_gestion_estudiantes
