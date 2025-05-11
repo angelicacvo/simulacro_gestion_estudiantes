@@ -9,10 +9,10 @@ students = {
         "age": "20",
         "grade": 4.0
     },
-      "456" : {        
+      "456" : {
         "name" : "Sofia Lopez",
         "age": "21",
-        "grade": 4.5        
+        "grade": 4.5
     },
       "789": {
         "name" : "Gabriela Perez",
@@ -22,7 +22,7 @@ students = {
       "135": {
         "name" : "Tatiana Higuita",
         "age": "18",
-        "grade": 2.8       
+        "grade": 2.8
     },
       "246": {
         "name" : "Juliana Alvarez",
@@ -90,7 +90,7 @@ def update_student():
           print(SUCCESS + "Operación exitosa." + RESET)
         else:
           print(WARNING + "Advertencia: Debes ingresar un valor entre 0 y 5.0." + RESET)
-    
+
 # function delete students: searchs for the student in the dictionary and with the method .pop deletes the student searched
 def delete_students():
   choice = input("Ingrese el id del estudiante ")
@@ -142,7 +142,7 @@ while flag != 6:
     case "3": update_student()
     case "4": delete_students()
     case "5": students_average()
-    case "6": students_average()
+    case "6": lower_grades()
     case "7":
       break
     case _:
